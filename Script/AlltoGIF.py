@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def im_resizer(self):
-    percent = int(input('Input the resizing percent: '))/100
+    percent = int(input('Input the percent of orgin image size that you want to change: '))/100
     x, y = Image.open(self).size
     new_size = Image.open(self).resize((int(percent*x), int(percent*y)))
     return new_size
@@ -18,6 +18,6 @@ for infile in os.listdir('.'):
         f, e = os.path.splitext(infile)
         outfile = f + ".gif"
         if infile != outfile:
-            print('The operated file by now is:%s', infile)
+            print('The file being operated by now is:%s', infile)
             newfile = im_resizer(infile)
             newfile.save(outfile)
