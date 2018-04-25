@@ -1,99 +1,74 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# C extensions
-*.so
+# Created by https://www.gitignore.io/api/images
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# Graphics Interchange Format
+*.gif
 
-# Translations
-*.mo
-*.pot
+# RAW
+*.raw
 
-# Django stuff:
-*.log
-local_settings.py
+# Web P
+*.webp
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Portable Network Graphics
+*.png
 
-# Scrapy stuff:
-.scrapy
+# Animated Portable Network Graphics
+*.apng
 
-# Sphinx documentation
-docs/_build/
+# Multiple-image Network Graphics
+*.mng
 
-# PyBuilder
-target/
+# Tagged Image File Format
+*.tiff
+*.tif
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Scalable Vector Graphics
+*.svg
+*.svgz
 
-# pyenv
-.python-version
+# Portable Document Format
+*.pdf
 
-# celery beat schedule file
-celerybeat-schedule
+# X BitMap
+*.xbm
 
-# SageMath parsed files
-*.sage.py
+# BMP
+*.bmp
+*.dib
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
+# ICO
+*.ico
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# 3D Images
+*.3dm
+*.max
 
-# Rope project settings
-.ropeproject
 
-# mkdocs documentation
-/site
+# End of https://www.gitignore.io/api/images
 
-# mypy
-.mypy_cache/
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
