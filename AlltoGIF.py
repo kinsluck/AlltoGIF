@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def im_resizer(self):
-    percent = int(input('Input the resizing percent: '))/100
+    percent = int(input('Input the percent of orgin image size that you want to change: '))/100
     x, y = Image.open(self).size
     new_size = Image.open(self).resize((int(percent*x), int(percent*y)))
     return new_size
