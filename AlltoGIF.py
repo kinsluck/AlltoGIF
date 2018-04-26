@@ -10,11 +10,12 @@ def im_resizer(self):
     return new_size
 
 
-included_ext = ('jpg', 'jpeg', 'bmp', 'png', 'gif',
-                'eps', 'icns', 'ico',  'tif', 'tiff',
-                'exif', 'j2p', 'jpx', 'xpm', 'jp2',
-                'j2k', 'jxr', 'hdp'
-                )
+included_ext = (
+    'jpg', 'jpeg', 'bmp', 'png', 'gif',
+    'eps', 'icns', 'ico',  'tif', 'tiff',
+    'exif', 'j2p', 'jpx', 'xpm', 'jp2',
+    'j2k', 'jxr', 'hdp'
+)
 
 for infile in os.listdir('.'):
     if infile.endswith(included_ext):
