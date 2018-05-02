@@ -10,14 +10,20 @@ def im_resizer(self):
     return new_size
 
 
+included_ext = (
+    'jpg', 'jpeg', 'bmp', 'png', 'gif',
+    'eps', 'icns', 'ico',  'tif', 'tiff',
+    'exif', 'j2p', 'jpx', 'xpm', 'jp2',
+    'j2k', 'jxr', 'hdp'
+)
+
 for infile in os.listdir('.'):
-    if infile in glob.glob('*.py'):
-        pass
-    else:
-        im = Image.open(infile)
+    if infile.endswith(included_ext):
         f, e = os.path.splitext(infile)
         outfile = f + ".gif"
         if infile != outfile:
-            print('The file being operated by now is:%s', infile)
+            print('The operated file by now is: %s.' % infile)
             newfile = im_resizer(infile)
             newfile.save(outfile)
+    else:
+        print('Not the extension that can be proceeded')
